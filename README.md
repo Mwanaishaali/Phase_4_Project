@@ -85,7 +85,7 @@ Text transformed into numerical features using:
 
 ## Machine Learning Models
 
-### 1️⃣ Baseline Model: CountVectorizer + Multinomial Naive Bayes
+### 1. Baseline Model: CountVectorizer + Multinomial Naive Bayes
 
 - Fast, interpretable, and simple  
 - Serves as a benchmark  
@@ -96,7 +96,7 @@ Text transformed into numerical features using:
 
 ---
 
-### 2️⃣ Primary Model: TF-IDF + Logistic Regression
+### 2. Primary Model: TF-IDF + Logistic Regression
 
 - Down-weights common words, emphasizes informative terms  
 - Clear linear decision boundaries  
@@ -108,7 +108,7 @@ Text transformed into numerical features using:
 
 ---
 
-### 3️⃣ Advanced Model: TF-IDF + Random Forest
+### 3. Advanced Model: TF-IDF + Random Forest
 
 - Captures non-linear relationships in text  
 - High sensitivity to negative sentiment  
@@ -119,7 +119,7 @@ Text transformed into numerical features using:
 
 ---
 
-### 4️⃣ Advanced Model: TF-IDF + Linear Support Vector Classifier
+### 4. Advanced Model: TF-IDF + Linear Support Vector Classifier
 
 - Handles high-dimensional sparse text data efficiently  
 - Maximizes margin between classes  
