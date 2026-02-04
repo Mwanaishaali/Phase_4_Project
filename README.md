@@ -126,7 +126,7 @@ Text transformed into numerical features using:
 - Balanced precision and recall, handles class imbalance  
 
 **Confusion Matrix:**  
-![LinearSVC Confusion Matrix](IMAGES/linearsvc.png)
+![LinearSVC Confusion Matrix](IMAGES/linearSVC.png)
 
 ---
 
