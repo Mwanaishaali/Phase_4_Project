@@ -85,18 +85,18 @@ Text transformed into numerical features using:
 
 ## Machine Learning Models
 
-### 1️⃣ Baseline Model: CountVectorizer + Multinomial Naive Bayes
+### 1. Baseline Model: CountVectorizer + Multinomial Naive Bayes
 
 - Fast, interpretable, and simple  
 - Serves as a benchmark  
 - Limited performance on minority classes  
 
 **Confusion Matrix:**  
-![Naive Bayes Confusion Matrix](images/naive_bayes.png)
+![Naive Bayes Confusion Matrix](IMAGES/naive_bayes.png)
 
 ---
 
-### 2️⃣ Primary Model: TF-IDF + Logistic Regression
+### 2. Primary Model: TF-IDF + Logistic Regression
 
 - Down-weights common words, emphasizes informative terms  
 - Clear linear decision boundaries  
@@ -104,29 +104,29 @@ Text transformed into numerical features using:
 - Balanced performance across all classes  
 
 **Confusion Matrix:**  
-![Logistic Regression Confusion Matrix](images/logistic_reg.png)
+![Logistic Regression Confusion Matrix](IMAGES/logistic_reg.png)
 
 ---
 
-### 3️⃣ Advanced Model: TF-IDF + Random Forest
+### 3. Advanced Model: TF-IDF + Random Forest
 
 - Captures non-linear relationships in text  
 - High sensitivity to negative sentiment  
 - Precision suffers due to false positives  
 
 **Confusion Matrix:**  
-![Random Forest Confusion Matrix](images/randomForest.png)
+![Random Forest Confusion Matrix](IMAGES/randomForest.png)
 
 ---
 
-### 4️⃣ Advanced Model: TF-IDF + Linear Support Vector Classifier
+### 4. Advanced Model: TF-IDF + Linear Support Vector Classifier
 
 - Handles high-dimensional sparse text data efficiently  
 - Maximizes margin between classes  
 - Balanced precision and recall, handles class imbalance  
 
 **Confusion Matrix:**  
-![LinearSVC Confusion Matrix](images/linearsvc.png)
+![LinearSVC Confusion Matrix](IMAGES/linearSVC.png)
 
 ---
 
@@ -139,7 +139,7 @@ Metrics used:
 - **Confusion matrices**  
 
 **Cross-Model Comparison:**  
-![Model Evaluation Metrics](images/performance_summary.png)
+![Model Evaluation Metrics](IMAGES/performance_summary.png)
 
 | Model | Accuracy | Negative Recall | Negative Precision | Overall Balance |
 |-------|----------|----------------|------------------|----------------|
@@ -174,3 +174,4 @@ Metrics used:
 - **Jupyter Notebook** – Interactive analysis  
 
 ---
+For more detailed analysis, pleaase check the notebook ,[Jupyter Notebook](index.ipynb)
