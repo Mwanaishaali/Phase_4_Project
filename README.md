@@ -174,3 +174,4 @@ Metrics used:
 - **Jupyter Notebook** – Interactive analysis  
 
 ---
+For more detailed analysis, pleaase check the notebook ,[Jupyter Notebook](index.ipynb)
