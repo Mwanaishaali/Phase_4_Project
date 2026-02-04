@@ -92,7 +92,7 @@ Text transformed into numerical features using:
 - Limited performance on minority classes  
 
 **Confusion Matrix:**  
-![Naive Bayes Confusion Matrix](images/naive_bayes.png)
+![Naive Bayes Confusion Matrix](IMAGES/naive_bayes.png)
 
 ---
 
@@ -104,7 +104,7 @@ Text transformed into numerical features using:
 - Balanced performance across all classes  
 
 **Confusion Matrix:**  
-![Logistic Regression Confusion Matrix](images/logistic_reg.png)
+![Logistic Regression Confusion Matrix](IMAGES/logistic_reg.png)
 
 ---
 
@@ -115,7 +115,7 @@ Text transformed into numerical features using:
 - Precision suffers due to false positives  
 
 **Confusion Matrix:**  
-![Random Forest Confusion Matrix](images/randomForest.png)
+![Random Forest Confusion Matrix](IMAGES/randomForest.png)
 
 ---
 
@@ -126,7 +126,7 @@ Text transformed into numerical features using:
 - Balanced precision and recall, handles class imbalance  
 
 **Confusion Matrix:**  
-![LinearSVC Confusion Matrix](images/linearsvc.png)
+![LinearSVC Confusion Matrix](IMAGES/linearsvc.png)
 
 ---
 
@@ -139,7 +139,7 @@ Metrics used:
 - **Confusion matrices**  
 
 **Cross-Model Comparison:**  
-![Model Evaluation Metrics](images/performance_summary.png)
+![Model Evaluation Metrics](IMAGES/performance_summary.png)
 
 | Model | Accuracy | Negative Recall | Negative Precision | Overall Balance |
 |-------|----------|----------------|------------------|----------------|
